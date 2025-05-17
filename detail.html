@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UCNStyle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-section">
+        <a href="./index.html" class="">
+          <img src="./image/logo.jpg" alt="UCNStyle Logo" class="logo__image" />
+        </a>
+      </div>
+      <div class="logo-text">
+        <div>
+          <h1>UCNSTYLE</h1>
+          <p>SHINE WITH CONFIDENCE</p>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Bạn mua gì hôm nay ..." />
+          <button type="submit">
+            <img
+              src="https://img.icons8.com/ios-glyphs/20/000000/search--v1.png"
+              alt="search"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="right-menu">
+        <div class="">
+          <div class="icon">
+            <i class="fas fa-cart-shopping"></i>
+            <a style="color: black; font-weight: 700" href="#">TÀI KHOẢN</a>
+          </div>
+          <div class="icon">
+            <a href="#" class="login">ĐĂNG NHẬP</a>
+          </div>
+          <div class="icon">
+            <span style="font-size: 18px">⚙</span>
+            <a style="color: black; font-weight: 700" href="#">Tiếng Việt</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="./index.html">TRANG CHỦ</a></li>
+        <li class="has-sub">
+          <a href="#">THỜI TRANG MỚI <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="submenu">
+            <li class="has-sub">
+              <a href="#">Đầm <i class="fa-solid fa-angle-right"></i></a>
+            </li>
+            <li class="has-sub">
+              <a href="#">Áo <i class="fa-solid fa-angle-right"></i></a>
+              <ul class="submenu">
+                <li><a href="#">Áo sơ mi</a></li>
+                <li><a href="#">Áo vest</a></li>
+                <li><a href="#">Áo khoác</a></li>
+                <li><a href="#">Áo baby doll</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Quần</a></li>
+            <li><a href="#">Chân váy</a></li>
+            <li><a href="#">Túi</a></li>
+            <li><a href="#">Giày</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">BỘ SƯU TẬP <i class="fa-solid fa-angle-down"></i></a>
+        </li>
+        <li>
+          <a href="#">HÀNG SALE <i class="fa-solid fa-angle-down"></i></a>
+        </li>
+        <li><a href="#">CỬA HÀNG</a></li>
+        <li><a href="#">TIN TỨC</a></li>
+      </ul>
+    </nav>
+    <div class="product-page">
+      <div class="breadcrumb">TRANG CHỦ › <span>Áo vest</span></div>
+
+      <div class="product-container">
+        <!-- Sidebar filter -->
+        <aside class="filter-sidebar">
+          <h3>Tìm theo</h3>
+
+          <div class="filter-group">
+            <strong>Loại</strong>
+            <label><input type="checkbox" checked /> Áo vest</label>
+          </div>
+
+          <div class="filter-group">
+            <strong>Màu sắc</strong>
+            <label><input type="checkbox" /> Trắng</label>
+            <label><input type="checkbox" /> Đen</label>
+            <label><input type="checkbox" /> Xanh navy</label>
+            <label><input type="checkbox" /> Đỏ</label>
+            <label><input type="checkbox" /> Be</label>
+            <label><input type="checkbox" /> Vàng</label>
+          </div>
+
+          <div class="filter-group">
+            <strong>Kích thước</strong>
+            <label><input type="checkbox" /> XS</label>
+            <label><input type="checkbox" /> S</label>
+            <label><input type="checkbox" /> S+</label>
+            <label><input type="checkbox" /> M</label>
+            <label><input type="checkbox" /> M+</label>
+            <label><input type="checkbox" /> L</label>
+            <label><input type="checkbox" /> XL</label>
+          </div>
+        </aside>
+
+        <!-- Product list -->
+        <section class="product-list">
+          <div class="product-sort">
+            <span>Giá <span class="arrow">▼</span></span>
+          </div>
+
+          <div class="products">
+            <div class="product">
+              <div class="image-container">
+                <img src="./image/image1.jpg" alt="Sản phẩm 1" />
+                <div class="overlay"></div>
+              </div>
+              <div class="price">1.999.000₫</div>
+              <button class="buy-button">Mua Ngay</button>
+            </div>
+
+            <div class="product">
+              <div class="image-container">
+                <img src="./image/image2.jpg" alt="Sản phẩm 1" />
+                <div class="overlay"></div>
+              </div>
+              <div class="price">2.100.000₫</div>
+              <button class="buy-button">Mua Ngay</button>
+            </div>
+
+            <div class="product">
+              <div class="image-container">
+                <img src="./image/image3.jpg" alt="Sản phẩm 1" />
+                <div class="overlay"></div>
+              </div>
+              <div class="price">2.000.000₫</div>
+              <button class="buy-button">Mua Ngay</button>
+            </div>
+
+            <div class="product">
+              <div class="image-container">
+                <img src="./image/image4.jpg" alt="Sản phẩm 1" />
+                <div class="overlay"></div>
+              </div>
+              <div class="price">1.900.000₫</div>
+              <button class="buy-button">Mua Ngay</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
